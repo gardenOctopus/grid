@@ -30,9 +30,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="2.5600001"
-     inkscape:cx="64.062497"
-     inkscape:cy="830.46871"
+     inkscape:zoom="0.22627418"
+     inkscape:cx="830.85043"
+     inkscape:cy="331.45629"
      inkscape:window-width="1280"
      inkscape:window-height="715"
      inkscape:window-x="0"
@@ -53,7 +53,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Project"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true"><rect
        style="fill:#57acd4;fill-opacity:1;stroke-width:1.82137;paint-order:markers fill stroke"
        id="rect1444"
@@ -357,7 +357,7 @@
        y="25.513428" /></g><g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="Grid"
+     inkscape:label="Design"
      style="display:none;fill:#b3b3b3"
      sodipodi:insensitive="true"><rect
        style="fill:#b3b3b3;fill-opacity:0.761011;stroke-width:1.58889;paint-order:markers fill stroke"
@@ -2491,7 +2491,10 @@
            transform="rotate(-135.25861)" /></g></g></g><g
      inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="Colour" /><style
+     inkscape:label="Colour" /><g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Layout Grid" /><style
      type="text/css"
      id="style4631">
 	.st0{fill:#333333;}

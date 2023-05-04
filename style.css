@@ -6,7 +6,7 @@
 
 body {
     display: grid;
-    grid-template-columns: repeat(12, auto);
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 2fr;
 }
 
@@ -14,7 +14,7 @@ header {
     background-color: green;
 
     /*Grid*/
-    grid-column: 4 / 12;
+    grid-column-start: 2;
     grid-row: 1;
 }
 
@@ -25,19 +25,29 @@ nav {
 
     padding: 10px;
 
-    /*Grid*/
-    grid-column: 1 / span 3;
+    /*Main Grid*/
+    grid-column-start: 1;
     grid-row: 1 / span 2;
-}
 
-ul li {
-    list-style: none;
-}
-
-li {
-    /*Flex*/
-    display: flex;
+    /*Nav Grid*/
+    display: grid;
+    grid-template-columns: 75px auto;
+    grid-template-rows: repeat(12, 1fr);
     align-items: center;
+    justify-items: center;
+}
+
+.icon-container {
+    /*Nav Grid*/
+    grid-column: 1 / 2;
+    grid-row: auto;
+}
+
+.link-container {
+    /*Nav Grid*/
+    grid-column: 2 / 2;
+    grid-row: auto;
+    justify-self: flex-start;
 }
 
 #logo {
@@ -53,8 +63,6 @@ li {
 .icon {
     height: 16px;
     width: auto;
-
-    padding-right: 10px;
 }
 
 a {
@@ -70,6 +78,6 @@ section {
     background-color: #d9eaf2ff;
 
     /*Grid*/
-    grid-column: 4 / 12;
+    grid-column-start: 2;
     grid-row: 2;
 }
