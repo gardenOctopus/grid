@@ -10,13 +10,27 @@
 </head>
 <body>
     <header>
-        <input type="text" placeholder="Search">
-        <img src="#" alt="notifications">
-        <img src="#" alt="profile image">
-        <p>Zebra Spider</p>
-        <img src="#" alt="profile image">
-        <p>Hi there</p>
-        <p>Zebra Spider (@zebraspider)</p>
+        <div id="search">
+            <input type="text" placeholder="Search">
+            <img src="images/search.svg" alt="search" class="icon">
+        </div>
+        <div id="profile">
+            <img src="images/bell.svg" alt="notifications" class="icon">
+            <img src="images/profile-img.png" alt="profile image" class="tiny">
+            <a href="#">Jumping Spider</a>
+        </div>
+        <div id="salutation">
+            <img id="big" src="images/profile-img.png" alt="large profile image">
+            <div>
+                <p id="hello">Hi there</p>
+                <p id="your-name">Jumping Spider (@jumping-spider)</p>
+            </div>
+        </div>
+        <div id="btn-container">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
     </header>
     <nav>
         <div class="icon-container">
@@ -85,16 +99,77 @@
         </div>
     </nav>
     <section>
-        <div id="projects">
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
+        <div id="projects-container">
+            <h2>Your Projects</h2>
+            <div id="projects">
+                <div class="project">
+                    <h3>Mango Nirvana</h3>
+                    <p>Gummi bears cake gummi bears donut marshmallow marzipan 
+                        tootsie roll tart.</p>
+                </div>
+                <div class="project">
+                    <h3>Affordable Housing</h3>
+                    <p>Icing jelly liquorice danish lemon 
+                        drops. Cake pastry biscuit sweet  
+                        marzipan candy canes bear claw 
+                        marzipan chocolate bar. Jelly 
+                        sugar plum cake. </p>
+                </div>
+                <div class="project">
+                    <h3>Quinte Humane Society Flyer</h3>
+                    <p>Tootsie roll sweet roll biscuit 
+                        biscuit halvah soufflé jelly candy 
+                        canes oat cake pie.</p>
+                </div>
+                <div class="project">
+                    <h3>Icon Sets</h3>
+                    <p>Marshmallow oat cake cotton 
+                        brownie sweet roll bear claw 
+                        caramels. Croissant macaroon 
+                        gummies donut jujubes cake.</p>
+                </div>
+                <div class="project">
+                    <h3>The Outside</h3>
+                    <p>Cheesecake danish chupa chups 
+                        muffin halvah muffin. Toffee 
+                        macaroon tiramisu brownie 
+                        gingerbread. </p>
+                </div>
+                <div class="project">
+                    <h3>Calculator</h3>
+                    <p>Lemon drops cupcake powder 
+                        tiramisu danish carrot cake 
+                        Oat cake marshmallow tiramisu 
+                        sweet roll jelly-o pudding toffee. </p>
+                </div>
+            </div>
         </div>
-        <div id="announcements"></div>
-        <div id="trending"></div>
+        <div id="announcements-container">
+            <h2>Announcements</h2>
+            <div class="project">
+                <h4>Site Maintenance</h4>
+                <p class="tiny-font">Attack feet behind the couch destroy couch flop 
+                    over give attitude hide when guests come over 
+                    hopped up on goofballs hunt anything that 
+                    moves chase mice shake treat  
+                </p>
+                <br>
+                <h4>Community Share Day</h4>
+                <p class="tiny-font">Leave dead animals as gifts  claw drapes lick 
+                    butt why must they do that  stand in front of the 
+                    computer screen   chase imaginary bugs 
+                    make muffins inspect </p>
+                <br>
+                <h4>Updated Privacy Policy</h4>
+                <p class="tiny-font">Anything brought into the house. Make muffins
+                lop over chew ipad power cord  inspect anything
+                brought into the house leave dead animals as gifts 
+                -----why must </p>
+            </div>
+        </div>
+        <div id="trending">
+            <h2>Trending</h2>
+        </div>
     </section>
 </body>
 </html>
