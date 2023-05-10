@@ -9,7 +9,7 @@ body {
     /*Main Grid*/
     display: grid;
     grid-template-columns: 0.5fr 2fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 0.5fr 2fr;
 }
 
 header {
@@ -22,7 +22,7 @@ header {
     /*Header Grid*/
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 12.5vh 16vh;
     align-items: center;
     justify-items: flex-start;
 }
@@ -136,7 +136,7 @@ nav {
     /*Nav Grid*/
     display: grid;
     grid-template-columns: 50px 1fr;
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 7vh);
     align-items: center;
     justify-items: center;
 }
