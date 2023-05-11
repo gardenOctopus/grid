@@ -259,3 +259,15 @@ h4 {
     padding: 10px;
 }
 
+.trend-text p {
+    font-size: 12px;
+}
+
+.bold {
+    font-family: 'ibm_plex_sansbold';
+}
+
+.thin {
+    font-family: 'ibm_plex_sanslight';
+}
+
