@@ -9,7 +9,7 @@ body {
     /*Main Grid*/
     display: grid;
     grid-template-columns: 0.5fr 2fr;
-    grid-template-rows: 0.1fr 2fr;
+    grid-template-rows: 200px 2fr;
 }
 
 header {
