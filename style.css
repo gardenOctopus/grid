@@ -228,6 +228,10 @@ h2 {
     justify-content: flex-end;
 }
 
+.space {
+    padding-right: 10px;
+}
+
 h3 {
     font-family: 'ibm_plex_monobold';
     font-size: 14px;
