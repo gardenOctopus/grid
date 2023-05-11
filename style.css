@@ -9,7 +9,7 @@ body {
     /*Main Grid*/
     display: grid;
     grid-template-columns: 0.5fr 2fr;
-    grid-template-rows: 0.5fr 2fr;
+    grid-template-rows: 0.1fr 2fr;
 }
 
 header {
@@ -22,7 +22,7 @@ header {
     /*Header Grid*/
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 12.5vh 16vh;
+    grid-template-rows: 75px 100px;
     align-items: center;
     justify-items: flex-start;
 }
@@ -136,7 +136,7 @@ nav {
     /*Nav Grid*/
     display: grid;
     grid-template-columns: 50px 1fr;
-    grid-template-rows: repeat(12, 7vh);
+    grid-template-rows: repeat(12, 40px);
     align-items: center;
     justify-items: center;
 }
@@ -184,7 +184,7 @@ section {
     /*Content Grid*/
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     gap: 10px;
 }
 
@@ -197,6 +197,7 @@ section {
 h2 {
     font-family: 'ibm_plex_monobold';
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 #projects {
@@ -213,8 +214,18 @@ h2 {
     padding: 10px;
     border-radius: 20px;
 
-    width: 1fr;
-    height: 1fr;
+    /*Project Icons Grid*/
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+.project-icons {
+    margin-top: 10px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 h3 {
@@ -234,4 +245,17 @@ h4 {
 
 .tiny-font {
     font-size: 12px;
+    margin-bottom: 10px;
 }
+
+#trending-grid {
+    /*Trending Grid*/
+    display: grid;
+    grid-template-columns: 70px auto;
+    grid-template-rows: 70px 70px 70px 70px;
+}
+
+.trend-text {
+    padding: 10px;
+}
+
